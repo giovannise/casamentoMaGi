@@ -23,6 +23,12 @@
 	color: #fff;
 }
 
+.branco /*FUNDO BRANCO, LETRAS VERDE MENTA*/
+{
+	background-color: #fff;
+	color: #a1d597;
+}
+
 /* CORPO INTEIRO DO SITE - FUNDO CINZA COM PIGMENTO */
 body
 {
@@ -35,7 +41,6 @@ body
 /* CABEÇALHO DO SITE */
 header
 {
-	background-color: #fff;
 	background-image: url(../images/pigmento_background.png);
 	background-position: bottom;
 	background-repeat: repeat-x;
@@ -100,11 +105,11 @@ nav a:hover
 /* TÍTULOS DAS PÁGINAS */
 h1
 {
-	padding: 10px;
+	padding: 5px;
 	color: #ffffff;
 	font-size: 3em;
 	margin-bottom: 3px;
-	border-bottom: 3px solid #cdcdcd;
+	border-bottom: 10px double #e2f0d9;
 }
 
 /* PARÁGRAFOS DAS PÁGINAS */
