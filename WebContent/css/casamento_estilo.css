@@ -1,0 +1,114 @@
+/* ESTILOS GERAIS */
+*
+{
+	font-family: "Arial";
+	text-align: center;
+}
+
+.verdeClaro /*FUNDO VERDE CLARO, LETRAS VERDE MENTA*/
+{
+	background-color: #e2f0d9;
+	color: #a1d597;
+}
+
+.verdeMenta /*FUNDO VERDE MENTA, LETRAS BRANCAS*/
+{
+	background-color: #a1d597;
+	color: #fff;
+}
+
+.cinza /*FUNDO CINZA, LETRAS BRANCAS*/
+{
+	background-color: #dcdcdc;
+	color: #fff;
+}
+
+/* CORPO INTEIRO DO SITE - FUNDO CINZA COM PIGMENTO */
+body
+{
+	background-image: url(../images/pigmento_background.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 50%;
+}
+
+/* CABEÇALHO DO SITE */
+header
+{
+	background-color: #fff;
+	background-image: url(../images/pigmento_background.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 20%;
+	padding: 0px;
+	margin: 2px auto;
+	max-width: 1800px;
+}
+
+header img
+{
+	width: 50%;
+}
+
+/* MENU */
+nav 
+{
+	padding: 5px;
+	border-top: 5px double #cdcdcd;
+	border-bottom: 5px double #cdcdcd;
+}
+
+nav a
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+}
+
+/* CORPO E FOTO DEFINEM O FUNDO DE CADA PÁGINA */
+.corpo
+{
+	border-bottom-left-radius: 90px;
+	border-top-right-radius: 90px;
+	max-width: 1800px;
+	/*max-height: 900px;*/
+	width: 97%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.foto
+{
+	border-bottom-left-radius: 90px;
+	background-image: url(../images/182.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	max-width: 1800px;
+	/*max-height: 900px;*/
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/* TÍTULOS DAS PÁGINAS */
+h1
+{
+	padding: 10px;
+	color: #ffffff;
+	font-size: 3em;
+	margin-bottom: 3px;
+	border-bottom: 3px solid #cdcdcd;
+}
+
+/* PARÁGRAFOS DAS PÁGINAS */
+p
+{
+	padding: 15px;
+}
