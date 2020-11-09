@@ -5,6 +5,7 @@
 	text-align: center;
 }
 
+/* FUNDOS */
 .verdeClaro /*FUNDO VERDE CLARO, LETRAS VERDE MENTA*/
 {
 	background-color: #e2f0d9;
@@ -38,6 +39,7 @@ body
 	background-size: 50%;
 }
 
+
 /* CABEÇALHO DO SITE */
 header
 {
@@ -53,6 +55,7 @@ header
 header img
 {
 	width: 50%;
+	max-width: 1800px;
 }
 
 /* MENU */
@@ -76,7 +79,8 @@ nav a:hover
 	text-decoration: underline;
 }
 
-/* CORPO E FOTO DEFINEM O FUNDO DE CADA PÁGINA */
+
+/* CORPO DEFINE O FUNDO DE TODAS AS PÁGINAS E FOTO DEFINE A HOME */
 .corpo
 {
 	border-bottom-left-radius: 90px;
