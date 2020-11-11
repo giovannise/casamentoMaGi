@@ -41,7 +41,7 @@ body
 	background-image: url(../images/pigmento_background.png);
 	background-position: bottom;
 	background-repeat: repeat-x;
-	background-size: 50%;
+	background-size: 80%;
 }
 
 
@@ -92,7 +92,7 @@ nav a:hover
 }
 
 
-/* CORPO DEFINE O FUNDO DE TODAS AS PÁGINAS E FOTO DEFINE A HOME */
+/* CORPO DEFINE O FUNDO DE TODAS AS PÁGINAS*/
 .corpo
 {
 	border-top-left-radius: 90px;
@@ -100,17 +100,6 @@ nav a:hover
 	max-width: 1800px;
 	/*max-height: 900px;*/
 	width: 97%;
-	margin: 0 auto;
-	padding: 0px;
-	margin-bottom: 50px;
-}
-
-.foto
-{	
-	opacity: 0.7;
-	max-width: 1800px;
-	max-height: 1000px;
-	width: 100%;
 	margin: 0 auto;
 	padding: 0px;
 }
@@ -132,6 +121,17 @@ h1
 p
 {
 	padding: 15px;
+}
+
+/* HOME */
+.foto
+{	
+	opacity: 0.7;
+	max-width: 1800px;
+	max-height: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
 }
 
 /* RODAPÉ */
