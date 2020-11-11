@@ -8,6 +8,11 @@
 	font-family: "Arial";
 	font-size: 100%;
 	text-align: center;
+	
+	/* espaçamento de bordas */
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
 }
 
 /* FUNDOS */
@@ -93,6 +98,11 @@ nav a:hover
 
 
 /* CORPO DEFINE O FUNDO DE TODAS AS PÁGINAS*/
+.conteudo
+{
+	
+}
+
 .corpo
 {
 	border-top-left-radius: 90px;
@@ -133,6 +143,7 @@ p
 	margin: 0 auto;
 	padding: 0px;
 }
+
 
 /* RODAPÉ */
 .rodape
