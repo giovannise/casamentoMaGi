@@ -86,7 +86,6 @@ nav a
 
 nav a:hover
 {
-	text-decoration: underline;
 	background: #fff;
 	color: #a1d597;
 	border-radius: 90px;
@@ -103,15 +102,14 @@ nav a:hover
 	width: 97%;
 	margin: 0 auto;
 	padding: 0px;
+	margin-bottom: 50px;
 }
 
 .foto
 {	
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.5;
+	opacity: 0.7;
 	max-width: 1800px;
-	/*max-height: 900px;*/
+	max-height: 1000px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0px;
@@ -134,4 +132,28 @@ h1
 p
 {
 	padding: 15px;
+}
+
+/* RODAPÉ */
+.rodape
+{
+	color: green;
+	max-width: 1800px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	padding-bottom: 20px;
+	opacity: 0.7;	
+}
+
+.rodape a
+{
+	color: green;
+}
+
+.rodape table
+{
+	width: 80%;
+	margin: 0 auto;
+	padding-right: 80px;
 }
