@@ -125,6 +125,7 @@ nav a:hover
 	background-position: bottom;
 	background-repeat: repeat-x;
 	background-size: 50%;
+	margin-top: 50px;
 }
 
 .corpo
@@ -132,7 +133,6 @@ nav a:hover
 	border-top-left-radius: 90px;
 	border-top-right-radius: 90px;
 	max-width: 1800px;
-	max-height: 1000px;
 	width: 97%;
 	margin: 0 auto;
 	padding: 0px;
@@ -151,6 +151,20 @@ h1
 	padding: 5px;
 	font-size: 3em;
 	margin-bottom: 3px;
+	border-bottom: 10px double #e2f0d9;
+	text-transform: uppercase;
+	background-color: #fff;
+}
+
+.subtitulo
+{
+	border-top-left-radius: 90px;
+	border-top-right-radius: 90px;
+	padding: 5px;
+	font-size: 2em;
+	margin-bottom: 3px;
+	width:50%;
+	margin: 0 auto;
 	border-bottom: 10px double #e2f0d9;
 	text-transform: uppercase;
 	background-color: #fff;
@@ -184,7 +198,6 @@ p
 {	
 	opacity: 0.7;
 	max-width: 1800px;
-	max-height: 1000px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0px;
@@ -192,35 +205,31 @@ p
 }
 
 /* GRID */
-.grid
-{
-	max-width: 1800px;
-	max-height: 1000px;
-	width: 97%;
-	margin: 0 auto;
-	padding: 0px;
-}
-
-.grid img
-{
-	width: 100%;
-}
-
 .caixas
 {
 	float: left;
 	width: 100%;
 	margin: 0.5%;
+	min-height: 700px;
 }
 
 .caixa6
 {
 	width: 24%;
+	border: 5px solid #fff;
+	margin-top: 0;
 }
 
 .caixa4
 {
 	width: 15.66667%;
+}
+
+.caixa3
+{
+	width: 32.33333%;
+	border: 5px solid #fff;
+	margin-top: 0;
 }
 
 .caixa2
