@@ -40,13 +40,26 @@
 	color: #a1d597;
 }
 
+/* SOMBRAS */
+.sombra
+{
+	box-shadow: 5px 5px 20px #a1d597, -5px -5px 20px #e2f0d9;
+	-webkit-box-sizing: 5px 5px 20px #a1d597, -5px -5px 20px #e2f0d9;
+	-moz-box-sizing: 5px 5px 20px #a1d597, -5px -5px 20px #e2f0d9;
+	border: 1px #dcdcdc;
+}
+
+.sombraTitulo
+{
+	text-shadow: -2px -2px 3px #a1d597;
+	-webkit-box-sizing: -2px -2px 3px #a1d597;
+	-moz-box-sizing: -2px -2px 3px #a1d597;
+}
+
 /* CORPO INTEIRO DO SITE - FUNDO CINZA COM PIGMENTO */
 body
 {
-	background-image: url(../images/pigmento_background.png);
-	background-position: bottom;
-	background-repeat: repeat-x;
-	background-size: 80%;
+	background-color: #e2f0d9;
 }
 
 
@@ -100,7 +113,10 @@ nav a:hover
 /* CORPO DEFINE O FUNDO DE TODAS AS PÁGINAS*/
 .conteudo
 {
-	
+	background-image: url(../images/pigmento_background.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 50%;
 }
 
 .corpo
@@ -108,10 +124,10 @@ nav a:hover
 	border-top-left-radius: 90px;
 	border-top-right-radius: 90px;
 	max-width: 1800px;
-	/*max-height: 900px;*/
+	max-height: 1000px;
 	width: 97%;
 	margin: 0 auto;
-	padding: 0px;
+	padding: 0px; 
 }
 
 /* TÍTULOS DAS PÁGINAS */
@@ -148,18 +164,16 @@ p
 /* RODAPÉ */
 .rodape
 {
-	color: green;
 	max-width: 1800px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 15px;
 	padding-bottom: 20px;
-	opacity: 0.7;	
 }
 
 .rodape a
 {
-	color: green;
+	color: #fff;
 }
 
 .rodape table
