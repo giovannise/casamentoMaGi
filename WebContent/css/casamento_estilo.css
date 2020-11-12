@@ -15,6 +15,14 @@
 	-moz-box-sizing: border-box; 
 }
 
+/* AJUSTE DE CONFLITOS DE FLOAT */
+.clearfix
+{
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+
 /* FUNDOS */
 .verdeClaro /*FUNDO VERDE CLARO, LETRAS VERDE MENTA*/
 {
@@ -165,12 +173,9 @@ p
 	/* cor de fundo e da letra, inserir na class verde menta */
 }
 
-.botao:hover
+.botao a
 {
-	background: #fff;
-	color: #a1d597;
-	border-color: #fff;
-	border-radius: 90px;
+	color: #fff;
 }
 
 
@@ -230,14 +235,25 @@ p
 	max-width: 1800px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 0;
 	padding-bottom: 20px;
+	float: left;
+	display: block;
 }
 
 .rodape a
 {
 	color: #fff;
 }
+
+.rodape div
+{
+	display: inline-block;
+	padding: 50px 50px 0px;
+	padding-top: 10px;
+}
+
+.org
 
 .rodape table
 {
