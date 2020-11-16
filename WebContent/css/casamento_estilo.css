@@ -77,16 +77,61 @@ header
 	background-image: url(../images/pigmento_background.png);
 	background-position: bottom;
 	background-repeat: repeat-x;
-	background-size: 20%;
 	padding: 0px;
 	margin: 2px auto;
-	max-width: 1800px;
+}
+
+@media screen and (max-width: 500px) 
+{
+	header
+	{
+		background-size: 65%;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px)  
+{
+	header
+	{
+		background-size: 55%;
+	}
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px)  
+{
+	header
+	{
+		background-size: 45%;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px)  
+{
+	header
+	{
+		background-size: 40%;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px)  
+{
+	header
+	{
+		background-size: 25%;
+	}
+}
+
+@media screen and (min-width: 1000px)  
+{
+	header
+	{
+		background-size: 20%;
+	}
 }
 
 header img
 {
 	width: 50%;
-	max-width: 1800px;
 }
 
 /* MENU */
@@ -132,7 +177,6 @@ nav a:hover
 {
 	border-top-left-radius: 90px;
 	border-top-right-radius: 90px;
-	max-width: 1800px;
 	width: 97%;
 	margin: 0 auto;
 	padding: 0px;
@@ -192,12 +236,40 @@ p
 	color: #fff;
 }
 
+.botaoSelec
+{
+	margin: 10px;
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid #a1d597;
+	border-radius: 90px;
+}
+
+.botaoSelec a
+{
+	color: #a1d597;
+}
+
+.botaoPequeno
+{
+	margin: 10px;
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid #a1d597;
+	border-radius: 90px;
+	/* cor de fundo e da letra, inserir na class verde menta */
+}
+
+.botaoPequeno a
+{
+	color: #fff;
+}
+
 
 /* HOME */
 .foto
 {	
 	opacity: 0.7;
-	max-width: 1800px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0px;
@@ -210,6 +282,10 @@ p
 	float: left;
 	width: 100%;
 	margin: 0.5%;
+}
+
+.limite
+{
 	min-height: 700px;
 }
 
@@ -241,7 +317,6 @@ p
 /* RODAPÉ */
 .rodape
 {
-	max-width: 1800px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
