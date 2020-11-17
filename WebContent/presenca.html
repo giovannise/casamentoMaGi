@@ -25,14 +25,40 @@
 			<div class="corpo cinza">
 				<h1 class="sombraTitulo">Confirme sua presença</h1>
 				
-				<!-- TENTAR FAZER UM EMBEED DE FORMS DO GOOGLE 
-									OU 
-					BOTAR LINK DIRETO PARA WHATSAPP	-->
-					
-				<!-- exemplo de href pra abrir em nova aba target="_blank"
-				<a href="link do formulario, por ex" 
-				title="Link para confirmar presença" 
-				target="_blank">Formulário de Confirmação</a> -->
+				<div class="branco form">
+					<br />
+					<p>
+					Sua presença é <strong>muito importante</strong> para nós, portanto não deixe de <strong>comparecer</strong> para viver este momento lindo conosco!
+					</p>
+					<p>
+					Para <strong>melhor organização</strong> de lugares e quantidade de alimentos necessários para acomodar todos <strong>sem desperdícios</strong>, <br/>
+					pedimos a <strong>colaboração</strong> de vocês, basta <strong>confirmar a presença</strong> no campo abaixo, ou pelos telefones: <br/>
+					<strong>Matheus</strong>: (51) 99994-2019 | <strong>Gi</strong>: (51) 98219-7012 <br/>
+					</p>
+					<p>
+					Custa 0,00 e vai nos deixar <strong>muito felizes</strong> em saber antecipadamente que podemos contar com sua presença!
+					</p>
+					<br/>
+					<form name="formulario" class="formulario" action="mailto:?" method="post">
+						Quantidade de Adultos: <input type="number" min="0" max="5" name="qtdAdulto" value="0" />
+						Quantidade de Crianças: <input type="number" min="0" max="5" name="qtdCrianca" value="0" /> <br/>
+						<br/>
+						Nomes: <input type="text" name="nome" placeholder="Nome" /> <br/>
+						Nomes: <input type="text" name="nome" placeholder="Nome" /> <br/>
+						Nomes: <input type="text" name="nome" placeholder="Nome" /> <br/>
+						Nomes: <input type="text" name="nome" placeholder="Nome" /> <br/>
+						Nomes: <input type="text" name="nome" placeholder="Nome" /> <br/>
+						 <br/>
+						Algum vegetariano:  Sim <input type="checkbox" name="sim"/> Não <input type="checkbox" checked="checked" name="nao" /> Quantos? <input type="number" min="0" max="5" name="qtdVeg" value="0" /><br/>
+						Intolerante a Lactose:  Sim <input type="checkbox" name="sim2"/> Não <input type="checkbox" checked="checked" name="nao2" /> Quantos? <input type="number" min="0" max="5" name="qtdLac" value="0" /><br/>
+						 <br/>
+						Deixe uma mensagem aos noivos: (opcional) <br/>
+						<textarea name="mensagem" rows="10" placeholder="Mensagem"></textarea>
+						<br/>
+						<input type="submit" name="enviar" value="Confirmar presença" class="botoes botao verdeMenta" />
+					</form>
+					<br/>
+				</div>
 			</div>
 		</section>
 		

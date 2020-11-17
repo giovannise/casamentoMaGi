@@ -276,6 +276,50 @@ p
 	text-align: left;
 }
 
+/* FORMULÁRIO */
+.form
+{
+	width: 98%;
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.formulario
+{
+	text-transform: bold;
+	border: 5px solid #a1d597;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+}
+
+input[type="text"], textarea
+{
+	width: 50%;
+	padding: 5px;
+	background-color: #e2f0d9;
+	border: 1px solid #a1d597;
+	margin: 1%;
+	text-align: left;
+	color: #696969;
+}
+
+input[type="number"], input[type="checkbox"] 
+{
+	width: 5%;
+	padding: 5px;
+	background-color: #e2f0d9;
+	border: 1px solid #a1d597;
+	margin: 1%;
+	text-align: left;
+	color: #696969;
+}
+
+/* precisa fazer o tamanho dos itens em tela de celular, especialmente o type number */
+
+
 /* GRID */
 .caixas
 {
